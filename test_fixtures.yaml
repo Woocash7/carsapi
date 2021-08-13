@@ -1,0 +1,39 @@
+- model: auth.user
+  pk: 1
+  fields:
+    username: admin
+    email: admin@test.com
+    password: pbkdf2_sha256$260000$ANbRobDTRhiw0oexnGSXaG$LFDSaegZX/6ziRl2wmsYj4Fd3FMBaC5i7qOooo4czlQ=
+    is_active: true
+    is_staff: true
+    is_superuser: true
+
+- model: api.car
+  pk: 1
+  fields:
+    make: Volkswagen
+    model: Golf
+
+- model: api.car
+  pk: 2
+  fields:
+    make: Honda
+    model: Accord
+
+- model: api.rate
+  pk: 1
+  fields:
+    car: 1
+    rating: 3
+
+- model: api.rate
+  pk: 2
+  fields:
+    car: 1
+    rating: 4
+
+- model: api.rate
+  pk: 3
+  fields:
+    car: 2
+    rating: 5

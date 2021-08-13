@@ -14,7 +14,7 @@
 - Install dependencies from requirements.txt `pip install -r requirements.txt`
 - Migrate `python manage.py migrate --settings=carsapi.settings.dev`
 - (Optional) Load fixtures `python manage.py loaddata test_fixtures.yaml --settings=carsapi.settings.dev`
-    > Super user -> email: `admin@test.com` , password: `test`
+    > Super user -> username: `admin` , email: `admin@test.com` , password: `test`
 - Run tests `python manage.py test --settings=carsapi.settings.dev`
 - Run dev server `python manage.py runserver --settings=carsapi.settings.dev`
 
